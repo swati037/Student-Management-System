@@ -2,7 +2,7 @@
 
 
 ## OBJECTIVE:
-It provides a common platform to connect students and teachers online and to reduce unnecessary paperwork and manual work in maintaining students'  and staff’s information.
+It provides a common platform to connect students and teachers online and to reduce unnecessary paperwork and manual work in maintaining students' and staff’s information.
 
 
 ## TOOL TO BE USED:
@@ -21,7 +21,7 @@ Database : MySQL
 ### ADMIN LOGIN:
 * Add/Manage Students
 * Add/Manage Staff
-* Add/ Manage Subject & Courses
+* Add/ Manage Subjects & Courses
 * View Attendance
 * Feedback/Query Reply
 
@@ -29,5 +29,4 @@ Database : MySQL
 * View Attendance
 * Apply for Leave
 * Feedback/Query to Admin
-
 * 
