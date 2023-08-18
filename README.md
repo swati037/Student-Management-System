@@ -6,9 +6,9 @@ It provides a common platform to connect students and teachers online and to red
 
 
 ## TOOL TO BE USED:
-Languages : Python
-GUI : PyQt5
-Database : MySQL
+* Languages : Python
+* GUI : PyQt5
+* Database : MySQL
 
 
 ## FEATURES :
