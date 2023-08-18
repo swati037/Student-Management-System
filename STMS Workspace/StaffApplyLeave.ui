@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ApplyLeave</class>
+ <widget class="QMainWindow" name="ApplyLeave">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1029</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Leave Application</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(241, 229, 231);
+background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>-50</y>
+      <width>20</width>
+      <height>1081</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="verticalFrame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>190</y>
+      <width>391</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(232, 236, 241);</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="Home_b">
+       <property name="font">
+        <font>
+         <family>Cambria</family>
+         <pointsize>20</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Cambria&quot;;
+background-color: rgb(58, 83, 155);
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Home</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="TakeAttendance_b">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Cambria&quot;;
+background-color: rgb(58, 83, 155);
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Take Attendance</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="ViewAttendance_b">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Cambria&quot;;
+background-color: rgb(58, 83, 155);
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>View/Update Attendance</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="StaffLeave_b">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Cambria&quot;;
+background-color: rgb(58, 83, 155);
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Apply for Leave</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="StaffFeedback_b">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Cambria&quot;;
+background-color: rgb(58, 83, 155);
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string> Feedback</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>1931</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ApplyLeaveTitle_l">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>0</y>
+      <width>671</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>BlankCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+font: 42pt &quot;Microsoft Himalaya&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Leave Report and Apply for Leave</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Subject_l">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>80</y>
+      <width>131</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Microsoft Himalaya&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Leave Date:</string>
+    </property>
+    <property name="buddy">
+     <cstring>Subject_l</cstring>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ApplyForLeave_b">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>370</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cambria Math</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 16pt &quot;Cambria Math&quot;;
+selection-color: rgb(85, 170, 255);
+color: rgb(255, 255, 255);
+background-color: rgb(33, 23, 251);</string>
+    </property>
+    <property name="text">
+     <string>Apply for Leave</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="LeaveHistory_t">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>500</y>
+      <width>1171</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="rowCount">
+     <number>4</number>
+    </property>
+    <property name="columnCount">
+     <number>4</number>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>290</number>
+    </attribute>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>50</number>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>50</number>
+    </attribute>
+    <attribute name="verticalHeaderMinimumSectionSize">
+     <number>12</number>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Consolas</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Leave Date</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Consolas</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Leave Message</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Consolas</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Status</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Consolas</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="Staff_l">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>20</y>
+      <width>92</width>
+      <height>67</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>BlankCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 40pt &quot;Microsoft Himalaya&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Staff</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Leavehistory_l">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>460</y>
+      <width>1171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Cambria Math&quot;;
+background-color: rgb(135, 211, 124);
+font: 75 16pt &quot;Constantia&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Leave Application History:</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="LeaveReason_te">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>230</y>
+      <width>1311</width>
+      <height>121</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LeaveReason_l">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>190</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Microsoft Himalaya&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Reason for Leave:</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>430</y>
+      <width>1511</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="LeaveApplyDateEdit_de">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>120</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft Himalaya</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Microsoft Himalaya&quot;;</string>
+    </property>
+    <property name="dateTime">
+     <datetime>
+      <hour>0</hour>
+      <minute>0</minute>
+      <second>0</second>
+      <year>2021</year>
+      <month>5</month>
+      <day>1</day>
+     </datetime>
+    </property>
+    <property name="displayFormat">
+     <string>yyyy/M/d</string>
+    </property>
+    <property name="calendarPopup">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

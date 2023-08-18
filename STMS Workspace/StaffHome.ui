@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminHomePage</class>
+ <widget class="QMainWindow" name="AdminHomePage">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1029</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Staff Home Page</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(241, 229, 231);
+background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>-50</y>
+      <width>20</width>
+      <height>1081</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>80</y>
+      <width>1491</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="StaffHome_l">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>10</y>
+      <width>241</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 62);
+font: 46pt &quot;Microsoft Himalaya&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Staff Home</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Logout_b">
+    <property name="geometry">
+     <rect>
+      <x>1760</x>
+      <y>20</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 15pt &quot;Consolas&quot;;
+background-color: rgb(190, 42, 40);
+color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>Logout</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>0</y>
+      <width>1501</width>
+      <height>1011</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Pictures/homes1.png</pixmap>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TakeAttendance_b">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>150</y>
+      <width>500</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 28pt &quot;Cambria&quot;;
+background-color: rgb(34, 167, 240);</string>
+    </property>
+    <property name="text">
+     <string>Take Attendance</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ViewAttendance_b">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>150</y>
+      <width>500</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 28pt &quot;Cambria&quot;;
+background-color: rgb(242, 121, 53);</string>
+    </property>
+    <property name="text">
+     <string>View Attendance</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StaffLeave_b">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>570</y>
+      <width>500</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 28pt &quot;Cambria&quot;;
+background-color: rgb(255, 203, 5);</string>
+    </property>
+    <property name="text">
+     <string>Apply for Leave</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StaffFeedback_b">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>570</y>
+      <width>500</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 28pt &quot;Cambria&quot;;
+background-color: rgb(42, 187, 155);</string>
+    </property>
+    <property name="text">
+     <string> Feedback</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>431</width>
+      <height>1041</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Downloads/WhatsApp Image 2021-05-23 at 12.18.59.jpeg</pixmap>
+    </property>
+   </widget>
+   <zorder>line</zorder>
+   <zorder>label_2</zorder>
+   <zorder>line_2</zorder>
+   <zorder>label</zorder>
+   <zorder>StaffHome_l</zorder>
+   <zorder>Logout_b</zorder>
+   <zorder>TakeAttendance_b</zorder>
+   <zorder>ViewAttendance_b</zorder>
+   <zorder>StaffLeave_b</zorder>
+   <zorder>StaffFeedback_b</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

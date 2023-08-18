@@ -1,0 +1,12 @@
+INSERT INTO AdminHOD(A_Name, A_Email, A_Password) VALUES('Kapil', 'Kapil@gmail.com', 'kap@123');
+
+INSERT INTO Staff(Sf_Name, Sf_Gender, Sf_Email, Sf_Password) VALUES('1', '!', 'a', 'A');
+
+DELETE FROM Staff WHERE Sf_ID = 2;
+
+TRUNCATE TABLE Staff;
+
+INSERT INTO Student(St_Name, St_Gender, St_Email, St_Password, St_StartYear, St_Endyear, St_Course) VALUES(%s,%s,%s,%s,%s,%s,%s)
+
+font: 15pt "Times New Roman";
+background-color: rgb(213, 245, 247);

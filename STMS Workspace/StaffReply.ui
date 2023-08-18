@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1030</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255,255,255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>50</y>
+      <width>1661</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>0</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="viewAttendance_l">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>0</y>
+      <width>1001</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;Microsoft Himalaya&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Student Management System HOD Login</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="subject_l">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>80</y>
+      <width>861</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;Microsoft Himalaya&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Staff Feedback</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="buddy">
+     <cstring>subject_l</cstring>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ManageSubject_b">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>520</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Cambria&quot;;
+background-color: rgb(241, 231, 254);</string>
+    </property>
+    <property name="text">
+     <string>Manage Subject</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StudentLeave_b">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>820</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Cambria&quot;;
+background-color: rgb(241, 231, 254);</string>
+    </property>
+    <property name="text">
+     <string>Student Leave</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Home_b">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cambria</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Cambria&quot;;
+background-color: rgb(241, 231, 254);</string>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddSubject_b">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>580</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cambria</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Cambria&quot;;
+background-color: rgb(241, 231, 254);</string>
+    </property>
+    <property name="text">
+     <string>Add Subject</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StaffFeedback_b">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>760</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Cambria&quot;;
+background-color: rgb(241, 231, 254);</string>
+    </property>
+    <property name="text">
+     <string>Staff Feedback</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddStaff_b">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cambria</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Cambria&quot;;
+background-color: rgb(241, 231, 254);</string>
+    </property>
+    <property name="text">
+     <string>Add Staff</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddCourse_b">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>460</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Cambria&quot;;
+background-color: rgb(241, 231, 254);</string>
+    </property>
+    <property name="text">
+     <string>Add Course</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ManageCourse_b">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>400</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Cambria&quot;;
+background-color: rgb(241, 231, 254);</string>
+    </property>
+    <property name="text">
+     <string>Manage Course</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ViewAttendance_b">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>640</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Cambria&quot;;
+background-color: rgb(241, 231, 254);</string>
+    </property>
+    <property name="text">
+     <string>View Attendance</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StaffLeave_b">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>880</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Cambria&quot;;
+background-color: rgb(241, 231, 254);</string>
+    </property>
+    <property name="text">
+     <string>Staff Leave</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ManageStaff_b">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cambria</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Cambria&quot;;
+background-color: rgb(241, 231, 254);</string>
+    </property>
+    <property name="text">
+     <string>Manage Staff</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddStudent_b">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>340</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cambria</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Cambria&quot;;
+background-color: rgb(241, 231, 254);</string>
+    </property>
+    <property name="text">
+     <string>Add Student</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StudentFeedback_b">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>700</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Cambria&quot;;
+background-color: rgb(241, 231, 254);</string>
+    </property>
+    <property name="text">
+     <string>Student Feedback</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ManageStudent_b">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cambria</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Cambria&quot;;
+background-color: rgb(241, 231, 254);</string>
+    </property>
+    <property name="text">
+     <string>Manage Student</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Name_l">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>220</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 17pt &quot;Times New Roman&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Name  :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Name_l_2">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>220</y>
+      <width>771</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 17pt &quot;Times New Roman&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> (Name label idar hai)</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Feedback_tb">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>390</y>
+      <width>1021</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 13pt &quot;Times New Roman&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FeedBack_l">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>340</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 17pt &quot;Times New Roman&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Feedback  :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Reply_l">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>590</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 17pt &quot;Times New Roman&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Reply  :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Reply_tb">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>640</y>
+      <width>1021</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Times New Roman&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SendReply_b">
+    <property name="geometry">
+     <rect>
+      <x>1420</x>
+      <y>850</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Cambria&quot;;
+background-color: rgb(241, 231, 254);</string>
+    </property>
+    <property name="text">
+     <string>Send Reply</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

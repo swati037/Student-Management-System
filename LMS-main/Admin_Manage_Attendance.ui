@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1029</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="adminVerticalWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>261</width>
+      <height>871</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(46, 49, 49);
+font: 75 11pt &quot;Consolas&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="home_b">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">gridline-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:0.495 rgba(255, 255, 255, 255), stop:0.505 rgba(255, 0, 0, 255), stop:1 rgba(255, 0, 0, 255));</string>
+       </property>
+       <property name="text">
+        <string>Home</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="manageStaff_b">
+       <property name="text">
+        <string>Manage Staff</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="addStaff_b">
+       <property name="text">
+        <string>Add Staff</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="manageStudent_b">
+       <property name="styleSheet">
+        <string notr="true">font: 75 12pt &quot;Consolas&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Manage Student</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="addStudent_b">
+       <property name="styleSheet">
+        <string notr="true">selection-background-color: rgb(85, 170, 255);</string>
+       </property>
+       <property name="text">
+        <string>Add Student</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="manageCourse_b">
+       <property name="text">
+        <string>Manage Course</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="addCourse_b">
+       <property name="text">
+        <string>Add Course</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="manageSubject_b">
+       <property name="text">
+        <string>Manage Subject</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="addSubject_b">
+       <property name="text">
+        <string>Add Subject</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="viewAttendance_b">
+       <property name="text">
+        <string>View Attendance</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="studentFeedback_b">
+       <property name="text">
+        <string>Student Feedback</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="staffFeedback_b">
+       <property name="text">
+        <string>Staff Feedback</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="studentLeave_b">
+       <property name="text">
+        <string>Student Leave</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="staffLeave_b">
+       <property name="styleSheet">
+        <string notr="true">font: 75 12pt &quot;Consolas&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Staff Leave</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>50</y>
+      <width>1661</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="admin_l">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft Himalaya</family>
+      <pointsize>26</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Segoe UI&quot;;
+font: 26pt &quot;Microsoft Himalaya&quot;;
+color: rgb(0, 0, 0);
+selection-color: rgb(158, 149, 255);</string>
+    </property>
+    <property name="text">
+     <string>Admin</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>0</y>
+      <width>16</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="viewAttendance_l">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>0</y>
+      <width>521</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;Microsoft Himalaya&quot;;</string>
+    </property>
+    <property name="text">
+     <string>View Attendance</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="subject_cb">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>160</y>
+      <width>631</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
+    </property>
+    <property name="insertPolicy">
+     <enum>QComboBox::InsertAlphabetically</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>AT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COA</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>OS</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Python</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="subject_l">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>110</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 26pt &quot;Microsoft Himalaya&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Subject</string>
+    </property>
+    <property name="buddy">
+     <cstring>subject_l</cstring>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fetch_Attendance_b">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>250</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Consolas&quot;;
+selection-color: rgb(85, 170, 255);
+color: rgb(255, 255, 255);
+background-color: rgb(33, 23, 251);</string>
+    </property>
+    <property name="text">
+     <string>Fetch Attendance Date</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>350</y>
+      <width>1311</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>adminVerticalWidget</sender>
+   <signal>customContextMenuRequested(QPoint)</signal>
+   <receiver>addStaff_b</receiver>
+   <slot>animateClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>130</x>
+     <y>550</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>130</x>
+     <y>230</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fetch_Attendance_b</sender>
+   <signal>clicked()</signal>
+   <receiver>fetch_Attendance_b</receiver>
+   <slot>showMenu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>668</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>668</x>
+     <y>275</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fetch_Attendance_b</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>fetch_Attendance_b</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>637</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>637</x>
+     <y>296</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tableWidget</sender>
+   <signal>clicked(QModelIndex)</signal>
+   <receiver>tableWidget</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>668</x>
+     <y>419</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>670</x>
+     <y>434</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

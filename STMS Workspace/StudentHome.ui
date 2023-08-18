@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StudentHomePage</class>
+ <widget class="QMainWindow" name="StudentHomePage">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1029</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Student Home Page</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(241, 229, 231);
+background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>-50</y>
+      <width>16</width>
+      <height>1081</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="StaffHome_l">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>40</y>
+      <width>411</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(64, 64, 62);
+font: 46pt &quot;Microsoft Himalaya&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Student Home</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ViewUpdateAttendanceLogout_b">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>670</y>
+      <width>500</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 28pt &quot;Cambria&quot;;
+background-color: rgb(190, 42, 40);
+color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>Logout</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ViewAttendance_b">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>220</y>
+      <width>500</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 28pt &quot;Cambria&quot;;
+background-color: rgb(34, 167, 240);</string>
+    </property>
+    <property name="text">
+     <string>View Attendance</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StudentFeedback_b">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>220</y>
+      <width>500</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 28pt &quot;Cambria&quot;;
+background-color: rgb(242, 121, 53);</string>
+    </property>
+    <property name="text">
+     <string>Student Feedback</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StudentLeave_b">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>660</y>
+      <width>500</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 28pt &quot;Cambria&quot;;
+background-color: rgb(255, 203, 5);</string>
+    </property>
+    <property name="text">
+     <string>Student Leave</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>-40</y>
+      <width>1721</width>
+      <height>1031</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>431</width>
+      <height>1011</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Downloads/WhatsApp Image 2021-05-23 at 12.18.59.jpeg</pixmap>
+    </property>
+   </widget>
+   <zorder>line</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+   <zorder>StaffHome_l</zorder>
+   <zorder>ViewUpdateAttendanceLogout_b</zorder>
+   <zorder>ViewAttendance_b</zorder>
+   <zorder>StudentFeedback_b</zorder>
+   <zorder>StudentLeave_b</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
