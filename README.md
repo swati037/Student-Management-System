@@ -29,4 +29,4 @@ Database : MySQL
 * View Attendance
 * Apply for Leave
 * Feedback/Query to Admin
-* 
+
